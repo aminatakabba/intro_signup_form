@@ -85,3 +85,56 @@ body {
 #term {
     color: red
 }
+.seven {
+    font-weight: 900;
+}
+@media screen and (max-width: 375px) {
+    body {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px;
+        margin: 30px;
+    }
+    .left {
+        width: 200px;
+        height: 500px;
+        text-align: center;
+        font-size: 90%;
+        margin-left: 50px;
+    }
+    .right {
+        /* width: 200px */
+        font-size: 90%;
+        height: 500px;
+    }
+    .trial {
+        width: 250px;
+        height: 50px;
+        /* margin: 15px;
+        margin-left: 0px;
+        padding-right: 100px; */
+    }
+    .trialtext {
+        float: center;
+        font-size: 85%;
+        margin-left: -1px
+    }
+    .finput {
+        width: 180px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .formdiv {
+        width: 250px;
+        padding-right: 2opx;
+    }
+    .terms {
+        font-size: 8px;
+        margin-left: -100px;
+        padding-right: 40px;
+        flex-wrap: wrap;
+    }
+}
