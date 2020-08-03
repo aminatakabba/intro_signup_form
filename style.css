@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 body {
     padding: 100px;
     margin: 0px;
@@ -6,20 +8,24 @@ body {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(./images/bg-intro-desktop.png);
+
 }
 .left {
     float: left;
-    background-color: pink;
     width: 500px;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 20px;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 .right {
     float: right;
-    background-color: grey;
     width: 700px;
     height: 600px;
     display: flex;
@@ -30,22 +36,52 @@ body {
 .trial {
     display: flex;
     justify-content: flex-start;
-    width: 500px;
+    width: 580px;
     margin: 15px;
-    margin-left: 40px;
+    margin-left: 0px;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: rgb(95, 10, 95);
+    background-color: rgba(85, 51, 129, 0.781);
     border-radius: 10px;
 }
 .trialtext {
     color: white;
     font-size: 20px;
     text-align: center;
+    margin-left: 90px;
+    padding-top: 5px;
 }
 .finput {
+    width: 500px;
+    height: 60px;
+    margin: 15px;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.terms {
     width: 500px;
     height: 50px;
     margin: 15px;
     margin-left: 40px;
+    text-align: center;
+}
+.title {
+    font-weight: 1000;
+}
+.formdiv {
+    background-color: white;
+    border-radius: 5px;
+    height: 550px;
+    width: 580px;
+    padding-top: 10px;
+}
+#submit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border-color: transparent;
+    font-weight: 700;
+}
+#term {
+    color: red
 }
